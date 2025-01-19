@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+header {
+    position: relative;
+}
+
+.uvodni-obrazek {
+    width: 100%;
+    margin: 0;
+
+}
+h1 {
+    text-align: center;
+    font-size: 120px;
+    position: absolute;
+    top: 10%;
+    color: aliceblue;
+    font-family: Rubik;
+}
