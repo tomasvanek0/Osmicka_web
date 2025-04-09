@@ -1,66 +1,56 @@
-body {
-    margin: 0;
-    width: 100%;
-    position: relative;
-}
-
-header {
-    position: relative;
-}
-
-.uvodni-obrazek {
-    width: 100%;
-    margin: 0;
+.lišta{
+    display: flex;
 
 }
-h1 {
-    font-size: 80px;
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%,-50%);
-    color: black;
-    font-family: Rubik-one, sans-serif;
-}
-
-.znak {
-    position: absolute;
-    z-index: 2;
-    top: 10%;
-    left: 10%;
+.H1{
     width: 25%;
-    height: 25%;
+    position: relative;
+
 }
-.navbar{
-    width: 75%;
-    left: 50%;
-    transform: translate(-50%, 0);
+
+.h1{
     position: absolute;
-    z-index: 2;
-    border-top: white 40px solid;
-    margin: auto;
+    font-family: Raleway;
+    font-size: 72px;
+    font-weight: bold;
+    left: 25%;
 }
+.nav-bar {
+    width: 50%;
+}
+
+.ikony {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+
+}
+
 
 .nav-links {
     display: flex;
-    list-style: none;
-    font-size: 28px;
+    flex-direction: row;
     justify-content: flex-end;
-    padding: 16px 16px 16px 16px;
-    margin: 0;
-    background: white;
+    gap: 24px;
+
 }
 
+.nav-link {
+    list-style: none;
+}
+.nav-link:hover {
+    color: gray;
+
+}
 .nav-link a {
     text-decoration: none;
     color: black;
-    font-family: Rubik-one, sans-serif;
-    padding: 16px 16px 16px 16px;
-
-
 }
 
-.nav-link a:hover {
-    color: rgb(160, 160, 160);
+.header-image {
+    display: flex;
+    width: 100%;
+    height: 80vh;
 }
-
